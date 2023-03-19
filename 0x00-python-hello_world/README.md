@@ -22,4 +22,12 @@ File 8 - Complete this source code to print object-oriented programming with Pyt
 File 9 - Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)
 
-File 10 - 
+File 10 - Write a function in C that checks if a singly linked list has a cycle in it.
+
+File 11 - Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
+
+File 12 - Write a script that compiles a Python script file.
+The Python file name will be stored in the environment variable $PYFILE
+The output filename has to be $PYFILEc (ex: export PYFILE=my_main.py => output filename: my_main.pyc)
+
+File 13 - Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
