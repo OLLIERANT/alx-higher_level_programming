@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    """Print the number and lists of its arguments."""
+    def print_arg(argv):
+
+        """Print the number and lists of its arguments."""
     import sys
+    print_arg(sys.argv)
 
     number = len(sys.argv) - 1
     if number == 0:
