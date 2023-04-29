@@ -2,7 +2,8 @@
 def square_matrix_simple(matrix=[]):
     """Returns a new matrix that is the square value of a matrix"""
     new_matrix = matrix.copy()
+
     for i in range(len(matrix)):
         new_matrix[i] = list(map(lambda x: x**2, matrix[i]))
 
-        return (new_matrix)
+    return (new_matrix)
