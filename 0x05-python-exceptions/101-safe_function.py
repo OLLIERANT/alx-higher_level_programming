@@ -5,7 +5,8 @@ import sys
 def safe_function(fct, *args):
     """Executes a function safely"""
     try:
-        return fct(*args)
+        result = fct(*args)
+        return (result)
     except (ZeroDivisionError, ValueError, TypeError, IndexError) as error:
         print("Eception: {}".format(error), file=sys.stderr)
         return None
