@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """
 Module to find the peak number in an array of unsorted integers
