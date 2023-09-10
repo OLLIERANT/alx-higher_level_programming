@@ -9,7 +9,7 @@ from urllib import request, error
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
+    if len(sys.argv) != 2:
         print("Usage: python script.py <URL>")
         sys.exit(1)
 
@@ -20,5 +20,5 @@ if __name__ == "__main__":
                 body = response.read().decode('utf-8')
                 print(body)
 
-        except error.HTTPError as e:
-            print("Error code:", e.code)
+        except error.HTTPError as er:
+            print('Error code:', er.code)
