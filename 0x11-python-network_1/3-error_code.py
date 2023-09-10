@@ -7,6 +7,7 @@ and displays the body of the response (decoded in utf-8).
 import sys
 from urllib import request, error
 
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python script.py <URL>")
@@ -20,4 +21,4 @@ if __name__ == "__main__":
                 print(body)
 
         except error.HTTPError as e:
-            print("Error code:" e.code)
+            print("Error code:", e.code)
